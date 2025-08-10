@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-image: url("https://img.pikbest.com/backgrounds/20190806/purple-beautiful-night-moon-night-sky-starry-sky-lakeside_1901010.jpg!w700wp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.page{
+
+    width: 400px;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+
+
+
+
+
+}
+
+.log h1{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.inputbox input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 12px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.inputbox input::placeholder{
+    color:aliceblue;
+}
+
+.checkbox1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox1 label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.Forgot {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.button{
+    
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.button button{
+    padding: 5px 126px ;
+    font-size: 16px;
+    background-color: white;
+    color: purple;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.registerlin {
+    text-align: center;
+    font-size: 14px;
+}
+
+.registerlin a {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+
